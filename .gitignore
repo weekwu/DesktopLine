@@ -1,0 +1,24 @@
+.DS_Store
+*.app/
+*.dSYM/
+/build/
+/dist/
+/.build/
+/.swiftpm/
+*.zip
+*.log
+
+# Private installation records belong to this Mac, not the public repository.
+/安装与清理.md
+/应用程序安装核验.md
+/清理记录.md
+/验证记录.md
+/锁屏定位依据.md
+
+# Never publish local runtime preferences or credentials.
+settings.json
+.env
+.env.*
+*.mobileprovision
+*.p12
+*.key
